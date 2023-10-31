@@ -1,0 +1,8 @@
+<script>
+const tax = 0.21;
+const sum = [1, 2, 3].reduce((partialSum, a) => partialSum + a, 0);
+console.log(sum);
+
+let totalprice = sum + (sum * tax);
+console.log(`de totaalprijs inclusief belasting is ${totalprice}`);
+</script>
